@@ -1,0 +1,45 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: verdana;
+	background-image: radial-gradient(black, black, black, green);
+}
+
+a {
+	color: green;
+	font-weight: bold;
+}
+
+div#content{
+	margin: auto;
+	width: 60%;
+}
+
+div#big-header {
+	margin: auto;
+	margin-top: 80px;
+	height: 140px;
+	overflow: hidden;
+	width: fit-content;
+}
+
+div#big-header img#logo {
+	width: 100px;
+	height: 100px;
+	margin-right: 15px;
+	float: left;
+}
+
+div#big-header h1 {
+	float: right;
+}
+
+
+div#box {
+	background: black;
+	margin: auto;
+	padding: 10px;
+	border: 2px double #fff;
+	outline: solid 1px #fff;
+	width: fit-content;
+}
